@@ -1,15 +1,25 @@
-n1= range(5)
-for x in n1:
-    print(x)
-n2 = range(3,10)
-for x1 in n2:
-    print(x1)
-n3 = range(4,13,3)
-for x2 in n3:
-    print(x2)
-n4 = range( 15,5,-2)
-for x3 in n4:
-    print (x3)
-n5 = range (5,3)
-for x4 in n5:
-    print (x4)
+print("Select an operation to perform : ")
+print("1. ADD")
+print("2. SUBTRACT")
+print("3. MULTIPLY")
+print("4. DIVIDE")
+
+operation = input()
+if operation == "1":
+    num1 = input("Enter first number: ")
+    num2 = input("Enter second number: ")
+    print("The sum is :" + str(int(num1) + int(num2)))
+elif operation == "2":
+    num1 = input("Enter first number: ")    
+    num2 = input("Enter second number: ")
+    print("The difference is :" + str(int(num1) - int(num2)))
+elif operation == "3":
+    num1 = input("Enter first number: ")
+    num2 = input("Enter second number: ")
+    print("The product is :" + str(int(num1) * int(num2)))
+elif operation == "4":
+    num1 = input("Enter first number: ")
+    num2 = input("Enter second number: ")
+    print("The division is :" + str(int(num1) / int(num2)))
+else:
+    print("Invalid Entry")
