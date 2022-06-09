@@ -1,6 +1,10 @@
 import math
 
-print((3+4)*5)
+a = int(input("Enter the value of a :"))
+b = int(input("Enter the value of b :"))
+c = int(input("Enter the value of c :"))
+Ans =(a + b)*(c)
+print("Ans =",Ans
 n = int(input("enter the number"))
 exp2 =  n*(1-1)/2
 print(exp2)
